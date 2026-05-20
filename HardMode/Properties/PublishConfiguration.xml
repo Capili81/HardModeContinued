@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Publish>
+  <ModId Value="144130" />
+  <DisplayName Value="Hard Mode Continued" />
+  <ShortDescription Value="Unofficial continuation of Hard Mode with repaired economy difficulty and building demolition costs." />
+  <LongDescription>
+# Hard Mode Continued
+Unofficial continuation and compatibility fix of JadHajjar's Hard Mode mod.
+
+Original project: https://github.com/JadHajjar/HardMode
+Original author: JadHajjar
+License: MIT
+
+## Features
+* 4 difficulty settings in the mod's options.
+* Subsidies' formula is completely reworked, you get money at the start and lose subsidies the bigger your city is. You get less money, for a lower period of time the higher the difficulty setting is.
+* Milestone rewards use static money values based on the difficulty setting, instead of scaling up the higher you go.
+* Income and expense factors are re-balanced and are affected by the difficulty setting. This includes changes to taxation, exported electricity, water, goods, garbage fees, etc.
+* Bulldozing a building costs money based on evicted residents, land value, and building size. Costs are shown in the bulldozer tooltip and subtracted immediately when a building is demolished.
+
+## Difficulty details
+The mod first rebalances individual income and expense categories, then applies the selected difficulty.
+
+* Easy: income receives the strongest bonus, expenses are reduced to 85%, milestone rewards are 125,000 or 250,000 on every fourth milestone, and building demolition costs are divided by 6.
+* Medium: income receives a medium bonus, expenses are reduced to 90%, milestone rewards are 100,000 or 200,000 on every fourth milestone, and building demolition costs are divided by 4.
+* Hard: income receives only a small bonus, expenses use the full rebalanced value, milestone rewards are 50,000 or 100,000 on every fourth milestone, and building demolition costs are divided by 2.5.
+* Good Luck: income receives no difficulty bonus, expenses are increased to 110%, regular milestone rewards are removed, and building demolition costs are charged at full value.
+* Final milestone: milestone 20 still grants 1,000,000 on all difficulties.
+
+## Current limitations
+* Road, path, rail, pipe, cable, and other network demolitions do not currently charge demolition costs.
+* The public options are intentionally kept simple while compatibility with current game versions is tested.
+
+## Compatibility
+* Tested on Cities: Skylines II 1.5.8f1.
+* Do not use together with the original Hard Mode mod.
+* This continuation is intended to replace the original Hard Mode mod.
+* May conflict with other economy overhaul mods.
+
+## Planned Features
+There are no immediate promises for new features. Road/network demolition costs may be considered later if they can be implemented reliably.
+	  
+</LongDescription>
+  <Thumbnail Value="Properties/Thumbnail.png" />
+  <Screenshot Value="Properties/Screenshot_01.png" />
+  <Screenshot Value="Properties/Screenshot_02.png" />
+  <Screenshot Value="Properties/Screenshot_03.png" />
+  <Screenshot Value="Properties/Screenshot_04.png" />
+  <Screenshot Value="Properties/Screenshot_05.png" />
+  <Tag Value="Code Mod" />
+  <ModVersion Value="1.2.1" />
+  <GameVersion Value="1.5.*" />
+  <AccessLevel Value="Public" />
+  <ChangeLog>
+# v1.2.1
+## Unofficial continuation
+* Rebuilt for Cities: Skylines II 1.5.x.
+* Repaired building demolition cost deduction for current game versions.
+* Added clearer difficulty descriptions and public release notes.
+* Kept demolition costs limited to buildings; network demolitions remain free.
+* Cleaned up obsolete budget UI entry and release metadata.
+</ChangeLog>
+  <ExternalLink Type="github" Url="https://github.com/JadHajjar/HardMode" />
+</Publish>

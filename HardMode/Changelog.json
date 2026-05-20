@@ -1,0 +1,58 @@
+[
+  {
+    "Stable": true,
+    "Version": "1.2.1",
+    "Date": "2026-05-14",
+    "ChangeGroups": [
+      {
+        "Name": "Unofficial continuation",
+        "Changes": [
+          "Rebuilt for Cities: Skylines II 1.5.x.",
+          "Repaired building demolition cost deduction for current game versions.",
+          "Added clearer difficulty descriptions and public release notes.",
+          "Kept demolition costs limited to buildings; network demolitions remain free.",
+          "Cleaned up obsolete budget UI entry and release metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
+    "Version": "1.2",
+    "Date": "2025-03-18",
+    "ChangeGroups": [
+      {
+        "Name": "Hotfix",
+        "Changes": [
+          "Compatibility with patch 1.2.4f1."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
+    "Version": "1.1",
+    "Date": "2024-12-04",
+    "ChangeGroups": [
+      {
+        "Name": "Hotfix",
+        "Changes": [
+          "Compatibility with patch 1.2.0f1."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
+    "Version": "1.0.1",
+    "Date": "2024-06-24",
+    "ChangeGroups": [
+      {
+        "Name": "Changes",
+        "Changes": [
+          "Updated for Economy 2.0, updated all economy modifiers to accommodate for the changes in the new patch."
+        ]
+      }
+    ]
+  }
+]
