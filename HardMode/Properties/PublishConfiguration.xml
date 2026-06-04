@@ -32,7 +32,7 @@ The mod first rebalances individual income and expense categories, then applies 
 * The public options are intentionally kept simple while compatibility with current game versions is tested.
 
 ## Compatibility
-* Tested on Cities: Skylines II 1.5.8f1.
+* Tested on Cities: Skylines II 1.5.10f1.
 * Do not use together with the original Hard Mode mod.
 * This continuation is intended to replace the original Hard Mode mod.
 * May conflict with other economy overhaul mods.
