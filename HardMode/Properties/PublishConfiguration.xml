@@ -52,6 +52,12 @@ There are no immediate promises for new features. Road/network demolition costs 
   <GameVersion Value="1.5.*" />
   <AccessLevel Value="Public" />
   <ChangeLog>
+# 2026-06-04
+## Metadata-only update
+* Updated the public compatibility note to Cities: Skylines II 1.5.10f1.
+* No code or gameplay changes were made in this update.
+* Mod version remains 1.2.1 and supported game version metadata remains 1.5.*.
+
 # v1.2.1
 ## Unofficial continuation
 * Rebuilt for Cities: Skylines II 1.5.x.
