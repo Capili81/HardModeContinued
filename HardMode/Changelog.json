@@ -1,6 +1,22 @@
 [
   {
     "Stable": true,
+    "Version": "1.2.2",
+    "Date": "2026-06-04",
+    "ChangeGroups": [
+      {
+        "Name": "Metadata-only maintenance release",
+        "Changes": [
+          "Added a visible Paradox Mods changelog entry for the 2026-06-04 maintenance update.",
+          "Updated the public compatibility note to Cities: Skylines II 1.5.10f1.",
+          "Added the Paradox forum bug-report link and updated the public GitHub source link.",
+          "No gameplay or economy logic changes were made in this release."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
     "Version": "1.2.1",
     "Date": "2026-05-14",
     "ChangeGroups": [
