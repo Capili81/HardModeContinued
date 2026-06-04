@@ -66,5 +66,6 @@ There are no immediate promises for new features. Road/network demolition costs 
 * Kept demolition costs limited to buildings; network demolitions remain free.
 * Cleaned up obsolete budget UI entry and release metadata.
 </ChangeLog>
+  <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/hard-mode-continued-bug-reports.1926592/" />
   <ExternalLink Type="github" Url="https://github.com/Capili81/HardModeContinued" />
 </Publish>
