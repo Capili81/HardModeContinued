@@ -28,7 +28,7 @@ namespace HardMode.Systems
 			base.OnCreate();
 
 			var m_EventQuery = SystemAPI.QueryBuilder().WithAll<EventData>().Build();
-			var nativeArray = m_EventQuery.ToEntityArray(Allocator.TempJob);
+			using var nativeArray = m_EventQuery.ToEntityArray(Allocator.Temp);
 			var m_PrefabSystem = World.GetOrCreateSystemManaged<PrefabSystem>();
 
 			for (var i = 0; i < nativeArray.Length; i++)

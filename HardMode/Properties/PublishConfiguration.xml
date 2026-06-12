@@ -48,10 +48,16 @@ There are no immediate promises for new features. Road/network demolition costs 
   <Screenshot Value="Properties/Screenshot_04.png" />
   <Screenshot Value="Properties/Screenshot_05.png" />
   <Tag Value="Code Mod" />
-  <ModVersion Value="1.2.2" />
+  <ModVersion Value="1.2.3" />
   <GameVersion Value="1.5.*" />
   <AccessLevel Value="Public" />
   <ChangeLog>
+# v1.2.3
+## Stability hotfix
+* Disposed temporary Unity query arrays more explicitly to avoid JobTempAlloc leak warnings.
+* Registered the budget array reader dependency used by the custom money apply job.
+* No economy balance or gameplay feature changes were made in this release.
+
 # v1.2.2
 ## Metadata-only maintenance release
 * Added a visible Paradox Mods changelog entry for the 2026-06-04 maintenance update.

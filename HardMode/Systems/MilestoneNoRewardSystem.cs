@@ -50,7 +50,7 @@ namespace HardMode.Systems
 		{
 			RequireForUpdate(m_MilestoneGroup);
 
-			var milestones = m_MilestoneGroup.ToEntityArray(Allocator.TempJob);
+			using var milestones = m_MilestoneGroup.ToEntityArray(Allocator.Temp);
 
 			for (var i = 0; i < milestones.Length; i++)
 			{

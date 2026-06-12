@@ -1,6 +1,21 @@
 [
   {
     "Stable": true,
+    "Version": "1.2.3",
+    "Date": "2026-06-12",
+    "ChangeGroups": [
+      {
+        "Name": "Stability hotfix",
+        "Changes": [
+          "Disposed temporary Unity query arrays more explicitly to avoid JobTempAlloc leak warnings.",
+          "Registered the budget array reader dependency used by the custom money apply job.",
+          "No economy balance or gameplay feature changes were made in this release."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
     "Version": "1.2.2",
     "Date": "2026-06-04",
     "ChangeGroups": [

@@ -49,7 +49,7 @@ namespace HardMode.Systems
 		protected override void OnUpdate()
 		{
 			var commandBuffer = m_EndFrameBarrier.CreateCommandBuffer();
-			var entities = m_CondemnedQuery.ToEntityArray(Allocator.Temp);
+			using var entities = m_CondemnedQuery.ToEntityArray(Allocator.Temp);
 
 			for (var i = 0; i < entities.Length; i++)
 			{
@@ -59,7 +59,7 @@ namespace HardMode.Systems
 				{
 					commandBuffer.AddComponent<Deleted>(entity);
 				}
-				else if (GetRandomNumber(ref entities, entity) == 0)
+				else if (GetRandomNumber(in entities, entity) == 0)
 				{
 					DemolitionUtility.TriggerControlledDemolition(EntityManager, entity, commandBuffer);
 
@@ -68,7 +68,7 @@ namespace HardMode.Systems
 			}
 		}
 
-		private static int GetRandomNumber(ref NativeArray<Entity> entities, Entity entity)
+		private static int GetRandomNumber(in NativeArray<Entity> entities, Entity entity)
 		{
 			var randomSeed = RandomSeed.Next().GetRandom(entity.Index * 10000);
 

@@ -65,7 +65,7 @@ namespace HardMode.Systems
 			}
 
 			var totalCost = 0;
-			var temps = m_DefinitionQuery.ToComponentDataArray<CreationDefinition>(Allocator.Temp);
+			using var temps = m_DefinitionQuery.ToComponentDataArray<CreationDefinition>(Allocator.Temp);
 
 			for (var i = 0; i < temps.Length; i++)
 			{

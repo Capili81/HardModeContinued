@@ -57,7 +57,7 @@ namespace HardMode.Systems
 
 			Dependency = IJobExtensions.Schedule(budgetApplyJob, JobHandle.CombineDependencies(Dependency, deps, deps2));
 
-			//m_CityServiceBudgetSystem.AddArrayReader(Dependency);
+			m_CityServiceBudgetSystem.AddArrayReader(Dependency);
 		}
 
 		private struct MoneyApplyJob : IJob
