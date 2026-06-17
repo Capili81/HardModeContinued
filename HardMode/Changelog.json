@@ -1,6 +1,20 @@
 [
   {
     "Stable": true,
+    "Version": "1.2.4",
+    "Date": "2026-06-17",
+    "ChangeGroups": [
+      {
+        "Name": "Collapse crash hotfix",
+        "Changes": [
+          "Fixed a crash risk when buildings collapse from fire or disaster by leaving natural collapse handling to the base game.",
+          "Bulldoze demolition costs remain active and are still charged when the player demolishes buildings."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
     "Version": "1.2.3",
     "Date": "2026-06-12",
     "ChangeGroups": [

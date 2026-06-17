@@ -48,10 +48,15 @@ There are no immediate promises for new features. Road/network demolition costs 
   <Screenshot Value="Properties/Screenshot_04.png" />
   <Screenshot Value="Properties/Screenshot_05.png" />
   <Tag Value="Code Mod" />
-  <ModVersion Value="1.2.3" />
+  <ModVersion Value="1.2.4" />
   <GameVersion Value="1.5.*" />
   <AccessLevel Value="Public" />
   <ChangeLog>
+# v1.2.4
+## Collapse crash hotfix
+* Fixed a crash risk when buildings collapse from fire or disaster by leaving natural collapse handling to the base game.
+* Bulldoze demolition costs remain active and are still charged when the player demolishes buildings.
+
 # v1.2.3
 ## Stability hotfix
 * Disposed temporary Unity query arrays more explicitly to avoid JobTempAlloc leak warnings.

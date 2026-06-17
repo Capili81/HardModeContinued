@@ -44,7 +44,6 @@ namespace HardMode
 				updateSystem.UpdateAt<BulldozeCostSystem>(SystemUpdatePhase.ToolUpdate);
 				updateSystem.UpdateAfter<BulldozeDemolitionSystem>(SystemUpdatePhase.ToolUpdate);
 				updateSystem.UpdateAt<CondemnedDemolitionSystem>(SystemUpdatePhase.GameSimulation);
-				updateSystem.UpdateAt<ExtendedCollapsedBuildingSystem>(SystemUpdatePhase.GameSimulation);
 				updateSystem.UpdateAt<MoneyApplySystem>(SystemUpdatePhase.GameSimulation);
 				updateSystem.UpdateAt<BulldozeCostTooltipSystem>(SystemUpdatePhase.UITooltip);
 				updateSystem.UpdateAt<CustomBudgetUISystem>(SystemUpdatePhase.UIUpdate);
