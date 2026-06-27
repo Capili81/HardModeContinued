@@ -52,11 +52,12 @@ There are no immediate promises for new features. Road/network demolition costs 
   <GameVersion Value="1.6.*" />
   <AccessLevel Value="Public" />
   <ChangeLog>
-# v1.2.4
-## Collapse crash hotfix
-* Fixed a crash risk when buildings collapse from fire or disaster by leaving natural collapse handling to the base game.
-* Bulldoze demolition costs remain active and are still charged when the player demolishes buildings.
-* Public compatibility metadata updated for Cities: Skylines II 1.6.0f1.
+# 2026-06-27 metadata-only compatibility update
+## Cities: Skylines II 1.6.0f1
+* Updated the public compatibility metadata from 1.5.* to 1.6.* after the Cities: Skylines II 1.6.0f1 update.
+* Updated the public description to say the mod has been checked against Cities: Skylines II 1.6.0f1.
+* No code, gameplay, economy balance, or demolition-cost behavior changes were made in this update.
+* The current mod build remains version 1.2.4.
 </ChangeLog>
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/hard-mode-continued-bug-reports.1926592/" />
   <ExternalLink Type="github" Url="https://github.com/Capili81/HardModeContinued" />
