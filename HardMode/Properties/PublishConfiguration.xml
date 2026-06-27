@@ -11,6 +11,8 @@ Original project: https://github.com/JadHajjar/HardMode
 Original author: JadHajjar
 License: MIT
 
+Maintained continuation source: https://github.com/Capili81/HardModeContinued
+
 ## Features
 * 4 difficulty settings in the mod's options.
 * Subsidies' formula is completely reworked, you get money at the start and lose subsidies the bigger your city is. You get less money, for a lower period of time the higher the difficulty setting is.
@@ -48,16 +50,16 @@ There are no immediate promises for new features. Road/network demolition costs 
   <Screenshot Value="Properties/Screenshot_04.png" />
   <Screenshot Value="Properties/Screenshot_05.png" />
   <Tag Value="Code Mod" />
-  <ModVersion Value="1.2.4" />
+  <ModVersion Value="1.2.5" />
   <GameVersion Value="1.6.*" />
   <AccessLevel Value="Public" />
   <ChangeLog>
-# 2026-06-27 metadata-only compatibility update
-## Cities: Skylines II 1.6.0f1
-* Updated the public compatibility metadata from 1.5.* to 1.6.* after the Cities: Skylines II 1.6.0f1 update.
-* Updated the public description to say the mod has been checked against Cities: Skylines II 1.6.0f1.
-* No code, gameplay, economy balance, or demolition-cost behavior changes were made in this update.
-* The current mod build remains version 1.2.4.
+# v1.2.5
+## Metadata-only compatibility and link refresh
+* Published a new metadata-only version so Paradox Mods and Skyve show a visible update reason after Cities: Skylines II 1.6.0f1.
+* Updated public compatibility metadata to 1.6.* and the public description to Cities: Skylines II 1.6.0f1.
+* Added the maintained public GitHub source link to the description: https://github.com/Capili81/HardModeContinued
+* No code, gameplay, economy balance, or demolition-cost behavior changes were made in this release.
 </ChangeLog>
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/hard-mode-continued-bug-reports.1926592/" />
   <ExternalLink Type="github" Url="https://github.com/Capili81/HardModeContinued" />

@@ -1,6 +1,22 @@
 [
   {
     "Stable": true,
+    "Version": "1.2.5",
+    "Date": "2026-06-27",
+    "ChangeGroups": [
+      {
+        "Name": "Metadata-only compatibility and link refresh",
+        "Changes": [
+          "Published a new metadata-only version so Paradox Mods and Skyve show a visible update reason after Cities: Skylines II 1.6.0f1.",
+          "Updated public compatibility metadata to 1.6.* and the public description to Cities: Skylines II 1.6.0f1.",
+          "Added the maintained public GitHub source link to the description.",
+          "No code, gameplay, economy balance, or demolition-cost behavior changes were made in this release."
+        ]
+      }
+    ]
+  },
+  {
+    "Stable": true,
     "Version": "1.2.4",
     "Date": "2026-06-17",
     "ChangeGroups": [
