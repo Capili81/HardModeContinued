@@ -32,7 +32,7 @@ The mod first rebalances individual income and expense categories, then applies 
 * The public options are intentionally kept simple while compatibility with current game versions is tested.
 
 ## Compatibility
-* Tested on Cities: Skylines II 1.5.10f1.
+* Tested on Cities: Skylines II 1.6.0f1.
 * Do not use together with the original Hard Mode mod.
 * This continuation is intended to replace the original Hard Mode mod.
 * May conflict with other economy overhaul mods.
@@ -49,13 +49,14 @@ There are no immediate promises for new features. Road/network demolition costs 
   <Screenshot Value="Properties/Screenshot_05.png" />
   <Tag Value="Code Mod" />
   <ModVersion Value="1.2.4" />
-  <GameVersion Value="1.5.*" />
+  <GameVersion Value="1.6.*" />
   <AccessLevel Value="Public" />
   <ChangeLog>
 # v1.2.4
 ## Collapse crash hotfix
 * Fixed a crash risk when buildings collapse from fire or disaster by leaving natural collapse handling to the base game.
 * Bulldoze demolition costs remain active and are still charged when the player demolishes buildings.
+* Public compatibility metadata updated for Cities: Skylines II 1.6.0f1.
 </ChangeLog>
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/hard-mode-continued-bug-reports.1926592/" />
   <ExternalLink Type="github" Url="https://github.com/Capili81/HardModeContinued" />
