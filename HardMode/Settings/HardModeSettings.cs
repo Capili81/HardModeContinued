@@ -21,6 +21,9 @@ namespace HardMode.Settings
 		[SettingsUISection(GAMEPLAY_GROUP)]
 		public bool BulldozeCostsMoney { get; set; } = true;
 
+		[SettingsUISection(GAMEPLAY_GROUP)]
+		public bool TerraformingCostsMoney { get; set; } = true;
+
 		[SettingsUIHidden]
 		public bool BulldozeCausesDemolition { get; set; } = true;
 
@@ -36,6 +39,7 @@ namespace HardMode.Settings
 		{
 			EconomyDifficulty = EconomyDifficulty.Medium;
 			BulldozeCostsMoney = true;
+			TerraformingCostsMoney = true;
 			BulldozeCausesDemolition = true;
 		}
 

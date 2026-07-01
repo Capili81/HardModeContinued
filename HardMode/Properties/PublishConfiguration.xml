@@ -2,7 +2,7 @@
 <Publish>
   <ModId Value="144130" />
   <DisplayName Value="Hard Mode Continued" />
-  <ShortDescription Value="Unofficial continuation of Hard Mode with repaired economy difficulty and building demolition costs." />
+  <ShortDescription Value="Unofficial continuation of Hard Mode with repaired economy difficulty, building demolition costs, and terraforming costs." />
   <LongDescription>
 # Hard Mode Continued
 Unofficial continuation and compatibility fix of JadHajjar's Hard Mode mod.
@@ -19,14 +19,15 @@ Maintained continuation source: https://github.com/Capili81/HardModeContinued
 * Milestone rewards use static money values based on the difficulty setting, instead of scaling up the higher you go.
 * Income and expense factors are re-balanced and are affected by the difficulty setting. This includes changes to taxation, exported electricity, water, goods, garbage fees, etc.
 * Bulldozing a building costs money based on evicted residents, land value, and building size. Costs are shown in the bulldozer tooltip and subtracted immediately when a building is demolished.
+* Terraforming costs money when terrain height is changed. Costs are based on the actual height difference and scale with the selected difficulty.
 
 ## Difficulty details
 The mod first rebalances individual income and expense categories, then applies the selected difficulty.
 
-* Easy: income receives the strongest bonus, expenses are reduced to 85%, milestone rewards are 125,000 or 250,000 on every fourth milestone, and building demolition costs are divided by 6.
-* Medium: income receives a medium bonus, expenses are reduced to 90%, milestone rewards are 100,000 or 200,000 on every fourth milestone, and building demolition costs are divided by 4.
-* Hard: income receives only a small bonus, expenses use the full rebalanced value, milestone rewards are 50,000 or 100,000 on every fourth milestone, and building demolition costs are divided by 2.5.
-* Good Luck: income receives no difficulty bonus, expenses are increased to 110%, regular milestone rewards are removed, and building demolition costs are charged at full value.
+* Easy: income receives the strongest bonus, expenses are reduced to 85%, milestone rewards are 125,000 or 250,000 on every fourth milestone, building demolition costs are divided by 6, and terraforming uses the lowest cost factor.
+* Medium: income receives a medium bonus, expenses are reduced to 90%, milestone rewards are 100,000 or 200,000 on every fourth milestone, building demolition costs are divided by 4, and terraforming costs use a medium factor.
+* Hard: income receives only a small bonus, expenses use the full rebalanced value, milestone rewards are 50,000 or 100,000 on every fourth milestone, building demolition costs are divided by 2.5, and terraforming costs use a high factor.
+* Good Luck: income receives no difficulty bonus, expenses are increased to 110%, regular milestone rewards are removed, building demolition costs are charged at full value, and terraforming uses the highest cost factor.
 * Final milestone: milestone 20 still grants 1,000,000 on all difficulties.
 
 ## Current limitations
@@ -50,16 +51,15 @@ There are no immediate promises for new features. Road/network demolition costs 
   <Screenshot Value="Properties/Screenshot_04.png" />
   <Screenshot Value="Properties/Screenshot_05.png" />
   <Tag Value="Code Mod" />
-  <ModVersion Value="1.2.5" />
+  <ModVersion Value="1.2.6" />
   <GameVersion Value="1.6.*" />
   <AccessLevel Value="Public" />
   <ChangeLog>
-# v1.2.5
-## Metadata-only compatibility and link refresh
-* Published a new metadata-only version so Paradox Mods and Skyve show a visible update reason after Cities: Skylines II 1.6.0f1.
-* Updated public compatibility metadata to 1.6.* and the public description to Cities: Skylines II 1.6.0f1.
-* Added the maintained public GitHub source link to the description: https://github.com/Capili81/HardModeContinued
-* No code, gameplay, economy balance, or demolition-cost behavior changes were made in this release.
+# v1.2.6
+## Terraforming costs
+* Added terraforming costs when terrain height is changed with the terrain tool.
+* Terraforming costs scale with the selected Economy Difficulty: Easy x1, Medium x2, Hard x3, Good Luck x4.
+* Added an option to enable or disable terraforming costs.
 </ChangeLog>
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/hard-mode-continued-bug-reports.1926592/" />
   <ExternalLink Type="github" Url="https://github.com/Capili81/HardModeContinued" />
